@@ -4,7 +4,7 @@ import { Balance } from "./Components/Balance";
 import { IncomeExpenses } from "./Components/IncomeExpenses";
 import { TransactionList } from "./Components/TransactionList";
 import { AddTransaction } from "./Components/AddTransaction";
-import { GlobalProvider } from "./Context/AppReducer";
+import { GlobalProvider } from "./Context/GlobalState";
 
 
 import "./App.css";
