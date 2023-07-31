@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #e8dcaf;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,12 +27,14 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  color: #3498db;
 }
 
 h3 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;
+  color: #373737;
 }
 
 h4 {
@@ -79,8 +81,8 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 1px solid #dedede;
-  border-radius: 2px;
+  border: 1px solid #474747;
+  border-radius: 5px;
   display: block;
   font-size: 16px;
   padding: 10px;
@@ -89,7 +91,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #3498db;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -98,6 +100,8 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
 .btn:focus,
@@ -148,4 +152,18 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+
+
+.app-container {
+  background-color: #e5e5e5;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(22, 22, 22);
+  box-shadow: 10px 10px #3c3c3c;
+}
+
+.rounded {
+  border-radius: 20px;
 }

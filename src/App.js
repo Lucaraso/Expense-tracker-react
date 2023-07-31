@@ -11,15 +11,17 @@ import "./App.css";
 
 function App() {
   return (
+    <div className="app-container">
     <GlobalProvider>
       <Header />
-      <div className="container">
+      <div>
       <Balance/>
       <IncomeExpenses/> 
       <TransactionList />
       <AddTransaction />
       </div>
     </GlobalProvider>
+    </div>
   );
 }
 
